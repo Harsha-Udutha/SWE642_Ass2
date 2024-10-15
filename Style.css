@@ -1,0 +1,137 @@
+/* HARSHA UDUTHA */
+/* G01462111 */
+/* Default settings for body, header, logo and footer*/
+body 
+{
+    background-color: #ffffff;
+    color: black;
+}
+.gm-header 
+{
+    background-color: #006633;
+    color: white;
+    padding: 15px;
+}
+.gm-footer 
+{
+    background-color: #ffcc33;
+    color: black;
+    padding: 10px;
+}
+.header-logo 
+{
+    max-height: 100px;
+}
+.gm-box {
+    border: 5px solid #006633; /* Green border with 5px width */
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3); /* Custom box-shadow */
+    border-radius: 5px; /* Optional: To round the corners slightly */
+}
+
+
+
+/* Default headings */
+h2, h3 
+{
+    color: #006633;
+}
+
+h1, h5 
+{
+    color: white;
+}
+
+
+/* required courses table styling, settings */
+.gm-table th, .gm-table td {
+    padding: 10px;
+    text-align: left;
+    border: 1px solid #000000;
+}
+.gm-table th {
+    background-color: #006633;
+    color: white;
+}
+.gm-table td {
+    background-color: #ffcc33;
+}
+
+/* required '*' styling in syrvey form */
+.required 
+{
+    color: red;
+    font-weight: bold;
+}
+
+
+/* expand and collapse buton for the course tables */
+.gm-toggle-btn {
+    background-color: #006633;
+    color: white;
+    border: 1px solid #000000;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.gm-toggle-btn:hover {
+    background-color: #ffcc33;
+    color: #006633;
+    cursor: pointer;
+}
+
+
+/* Darkmode button styling */
+.gm-darkmode-btn 
+{
+    background-color: #006633;
+    color: rgb(255, 255, 255);
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.gm-darkmode-btn:hover 
+{
+    background-color: #000000;
+    cursor: pointer;
+}
+
+
+
+/* Darkmode Styling */
+body.dark-mode h1, body.dark-mode h5 
+{
+    color: #ffcc33;
+}
+
+body.dark-mode h2, body.dark-mode h3 
+{
+    color: #ffcc33;
+}
+body.dark-mode 
+{
+    background-color: #000000;
+    color: #f0f0f0;
+}
+
+
+/* survey button Settings */
+.gm-survey-btn 
+{
+    background-color: #ffcc33;
+    color: rgb(0, 0, 0);
+    border: none;
+    font-size: 1.2rem;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+.gm-survey-btn:hover 
+{
+    background-color: #008442;
+}
+
+section 
+{
+    scroll-margin-top: 70px;
+}

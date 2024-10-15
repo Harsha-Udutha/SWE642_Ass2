@@ -1,0 +1,626 @@
+<!-- HARSHA UDUTHA
+ G01462111 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--title-->
+    <title>GMU - CS department</title>
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="gmu-logo.jpg">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- external CSS file -->
+    <link rel="stylesheet" href="Style.css">
+    
+</head>
+
+<body>
+
+    <!-- Bootstrap Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="#">GMU - CS Department</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#about">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#bachelors">Bachelor's Programs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#masters">MS Programs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#advising">Advising</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#survey">Survey</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <!-- Header Section -->
+    <header class="gm-header text-center">
+        <div class="container" >
+            <div class="row align-items-center">
+                <div class="col-md-1">
+                    <img src="gmu-logo.jpg" alt="GMU Logo" class="header-logo">
+                </div>
+               <div class="col-md-5 header-text">
+                    <div class="gm-box">
+                        <h1>George Mason University</h1>
+                        <h5>Computer Science Department</h5>
+                    </div>
+                </div> 
+            </div>
+
+        </div>
+        <button id="darkModeToggle" class="btn gm-darkmode-btn" style="margin-left: 15px;">Dark Mode</button>
+    </header>
+
+    <!-- About the department section-->
+    <div class="container mt-5">
+        <section id="about">
+            <h3>About the Department</h3>
+            <p>
+                The Department of Computer Science at George Mason University offers a variety of Master’s programs
+                designed to provide students with in-depth knowledge in computer science, data science, cybersecurity, 
+                and more. With a focus on research and practical applications, the department equips graduates to excel 
+                in both academia and industry.
+            </p>
+            <p>
+                Our faculty are experts in diverse fields, from artificial intelligence to human-computer interaction, 
+                ensuring that students receive a well-rounded education. Whether your interest lies in theory or applied 
+                technologies, our programs provide the flexibility and opportunities for specialization.
+            </p>
+
+            <p>The CS Department has offices in two buildings on the Fairfax Campus, George Mason University.
+
+                CS Department Administration and Graduate Advising is located in Room 4300, on the fourth floor of the Long and Kimmy Nguyen Engineering Building.
+                
+                Undergraduate Advising is located in Room D215, on the second floor of Buchanan Hall.
+                
+                The Computer Science offices are open weekdays from 8:30 AM - 12:00 PM and 1:00 - 5:00 PM.  </p>
+        </section>
+        
+         <!-- Bachelor’s Degree List Section -->
+         <section id="bachelors">
+            <h3>Bachelor’s Degree Programs Offered</h3>
+            <ul>
+                <li>Bachelor of Science in Computer Science</li>
+                <li>Bachelor of Science in Applied Computer Science</li>
+                <li>Bachelor of Science in Information Technology</li>
+                <li>Bachelor of Science in Statistics</li>
+            </ul>
+        </section>
+
+
+        <!-- MS Degree List Section with required course -->
+        <section id="masters">
+            <h3>MS Degree Programs Offered with course requirement:
+                <button id="toggleTable" class="btn gm-toggle-btn ms-2">Expand All</button>
+            </h3>
+            </h3>
+            <ul>
+                <li><a class="btn btn-link" data-bs-toggle="collapse" href="#aitCourses" role="button" aria-expanded="false" aria-controls="aitCourses">
+                    Master of Science in Applied Information Technology
+                </a></li>
+                <div class="collapse" id="aitCourses">
+                    <table class="table gm-table table-bordered">
+                        <colgroup>
+                            <col style="width: 20%;">
+                            <col style="width: 80%;">
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>Course Number</th>
+                                <th>Course Name</th>
+                                <th>Credits</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>AIT 624</td>
+                                <td>Knowledge Mining from Big-Data</td>
+                                <td>3</td>
+                            </tr>
+                            <tr>
+                                <td>AIT 664</td>
+                                <td>Information: Representation, Processing and Visualization</td>
+                                <td>3</td>
+                            </tr>
+                            <tr>
+                                <td>AIT 636</td>
+                                <td>Interpretable Machine Learning</td>
+                                <td>3</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+
+                <li><a class="btn btn-link" data-bs-toggle="collapse" href="#ceCourses" role="button" aria-expanded="false" aria-controls="ceCourses">
+                    Master of Science in Computer Engineering
+                </a></li>
+                <div class="collapse" id="ceCourses">
+                    <table class="table gm-table table-bordered">
+                        <colgroup>
+                            <col style="width: 20%;">
+                            <col style="width: 80%;">
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>Course Number</th>
+                                <th>Course Name</th>
+                                <th>Credits</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>ECE 505</td>
+                                <td>Hardware Security</td>
+                                <td>3</td>
+                            </tr>
+                            <tr>
+                                <td>ECE 508</td>
+                                <td>Internet of Things</td>
+                                <td>3</td>
+                            </tr>
+                            <tr>
+                                <td>ECE 551</td>
+                                <td>Computer Architecture</td>
+                                <td>3</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <li><a class="btn btn-link" data-bs-toggle="collapse" href="#csCourses" role="button" aria-expanded="false" aria-controls="csCourses">
+                    Master of Science in Computer Science
+                </a></li>
+                <div class="collapse" id="csCourses">
+                    <table class="table gm-table table-bordered">
+                        <colgroup>
+                            <col style="width: 20%;">
+                            <col style="width: 80%;">
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>Course Number</th>
+                                <th>Course Name</th>
+                                <th>Credits</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>CS 530</td>
+                                <td>Mathematical Foundations of Computer Science</td>
+                                <td>3</td>
+                            </tr>
+                            <tr>
+                                <td>CS 531</td>
+                                <td>Computer Systems and Fundamentals of Systems Programming</td>
+                                <td>3</td>
+                            </tr>
+                            <tr>
+                                <td>CS 583</td>
+                                <td>Analysis of Algorithms</td>
+                                <td>3</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <li><a class="btn btn-link" data-bs-toggle="collapse" href="#cyseCourses" role="button" aria-expanded="false" aria-controls="cyseCourses">
+                    Master of Science in Cyber Security Engineering
+                </a></li>
+                <div class="collapse" id="cyseCourses">
+                    <table class="table gm-table table-bordered">
+                        <colgroup>
+                            <col style="width: 20%;">
+                            <col style="width: 80%;">
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>Course Number</th>
+                                <th>Course Name</th>
+                                <th>Credits</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>CYSE 550</td>
+                                <td>Cyber Security Engineering Fundamentals</td>
+                                <td>3</td>
+                            </tr>
+                            <tr>
+                                <td>CYSE 570</td>
+                                <td>Fundamentals of Operating Systems</td>
+                                <td>3</td>
+                            </tr>
+                            <tr>
+                                <td>CYSE 580</td>
+                                <td>Hardware and Cyber Physical Systems</td>
+                                <td>3</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                
+                <li><a class="btn btn-link" data-bs-toggle="collapse" href="#daeCourses" role="button" aria-expanded="false" aria-controls="daeCourses">
+                    Master of Science in Data Analytics Engineering
+                </a></li>
+                <div class="collapse" id="daeCourses">
+                    <table class="table gm-table table-bordered">
+                        <colgroup>
+                            <col style="width: 20%;">
+                            <col style="width: 80%;">
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>Course Number</th>
+                                <th>Course Name</th>
+                                <th>Credits</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>AIT 624</td>
+                                <td>Knowledge Mining from Big-Data</td>
+                                <td>3</td>
+                            </tr>
+                            <tr>
+                                <td>AIT 664</td>
+                                <td>Information: Representation, Processing and Visualization</td>
+                                <td>3</td>
+                            </tr>
+                            <tr>
+                                <td>AIT 636</td>
+                                <td>Interpretable Machine Learning</td>
+                                <td>3</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <li><a class="btn btn-link" data-bs-toggle="collapse" href="#isCourses" role="button" aria-expanded="false" aria-controls="isCourses">
+                    Master of Science in Information Security
+                </a></li>
+                <div class="collapse" id="isCourses">
+                    <table class="table gm-table table-bordered">
+                        <colgroup>
+                            <col style="width: 20%;">
+                            <col style="width: 80%;">
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>Course Number</th>
+                                <th>Course Name</th>
+                                <th>Credits</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>ISA 562</td>
+                                <td>Network Security</td>
+                                <td>3</td>
+                            </tr>
+                            <tr>
+                                <td>ISA 650</td>
+                                <td>Cryptography</td>
+                                <td>3</td>
+                            </tr>
+                            <tr>
+                                <td>ISA 674</td>
+                                <td>Intrusion Detection</td>
+                                <td>3</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                
+                <li><a class="btn btn-link" data-bs-toggle="collapse" href="#orCourses" role="button" aria-expanded="false" aria-controls="orCourses">
+                    Master of Science in Operations Research
+                </a></li>
+                <div class="collapse" id="orCourses">
+                    <table class="table gm-table table-bordered">
+                        <colgroup>
+                            <col style="width: 20%;">
+                            <col style="width: 80%;">
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>Course Number</th>
+                                <th>Course Name</th>
+                                <th>Credits</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>OR 541</td>
+                                <td>Operations Research: Deterministic Optimization</td>
+                                <td>3</td>
+                            </tr>
+                            <tr>
+                                <td>OR 542</td>
+                                <td>Operations Research: Stochastic Models</td>
+                                <td>3</td>
+                            </tr>
+                            <tr>
+                                <td>OR 568</td>
+                                <td>Applied Predictive Analytics</td>
+                                <td>3</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <li><a class="btn btn-link" data-bs-toggle="collapse" href="#sweCourses" role="button" aria-expanded="false" aria-controls="sweCourses">
+                    Master of Science in Software Engineering
+                </a></li>
+                <div class="collapse" id="sweCourses">
+                    <table class="table gm-table table-bordered">
+                        <colgroup>
+                            <col style="width: 20%;">
+                            <col style="width: 80%;">
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>Course Number</th>
+                                <th>Course Name</th>
+                                <th>Credits</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>SWE 619</td>
+                                <td>Object-Oriented Software Specification & Construction</td>
+                                <td>3</td>
+                            </tr>
+                            <tr>
+                                <td>SWE 632</td>
+                                <td>User Interface Design and Development</td>
+                                <td>3</td>
+                            </tr>
+                            <tr>
+                                <td>SWE 645</td>
+                                <td>Software Testing</td>
+                                <td>3</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <li><a class="btn btn-link" data-bs-toggle="collapse" href="#SSCourses" role="button" aria-expanded="false" aria-controls="SSCourses">
+                    Master of Science in Statistical Science
+                </a></li>
+                <div class="collapse" id="SSCourses">
+                    <table class="table gm-table table-bordered">
+                        <colgroup>
+                            <col style="width: 20%;">
+                            <col style="width: 80%;">
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>Course Number</th>
+                                <th>Course Name</th>
+                                <th>Credits</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>STAT 521</td>
+                                <td>Applied Probability and Statistical Inference</td>
+                                <td>3</td>
+                            </tr>
+                            <tr>
+                                <td>STAT 544</td>
+                                <td>Applied Probability</td>
+                                <td>3</td>
+                            </tr>
+                            <tr>
+                                <td>STAT 554</td>
+                                <td>Applied Statistics I</td>
+                                <td>3</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+
+                <li><a class="btn btn-link" data-bs-toggle="collapse" href="#SeCourses" role="button" aria-expanded="false" aria-controls="SeCourses">
+                    Master of Science in Systems Engineering
+                </a></li>
+                <div class="collapse" id="SeCourses">
+                    <table class="table gm-table table-bordered">
+                        <colgroup>
+                            <col style="width: 20%;">
+                            <col style="width: 80%;">
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>Course Number</th>
+                                <th>Course Name</th>
+                                <th>Credits</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>SYST 505</td>
+                                <td>Systems Engineering Principles 1</td>
+                                <td>3</td>
+                            </tr>
+                            <tr>
+                                <td>SYST 510</td>
+                                <td>Systems Definition and Cost Modeling</td>
+                                <td>3</td>
+                            </tr>
+                            <tr>
+                                <td>SYST 520</td>
+                                <td>System Engineering Design</td>
+                                <td>3</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                
+                <li><a class="btn btn-link" data-bs-toggle="collapse" href="#telCourses" role="button" aria-expanded="false" aria-controls="telCourses">
+                    Master of Science in Telecommunications
+                </a></li>
+                <div class="collapse" id="telCourses">
+                    <table class="table gm-table table-bordered">
+                        <colgroup>
+                            <col style="width: 20%;">
+                            <col style="width: 80%;">
+                        </colgroup>
+                        <thead>
+                            <tr>
+                                <th>Course Number</th>
+                                <th>Course Name</th>
+                                <th>Credits</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>TCOM 500</td>
+                                <td>Modern Telecommunications</td>
+                                <td>3</td>
+                            </tr>
+                            <tr>
+                                <td>TCOM 514</td>
+                                <td>Basic Switching: Lecture and Laboratory Course</td>
+                                <td>3</td>
+                            </tr>
+                            <tr>
+                                <td>TCOM 515</td>
+                                <td>Internet Protocol Routing: Lecture and Laboratory Course</td>
+                                <td>3</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </ul>
+        </section>
+
+
+        
+
+        <!-- CS Advising Information thats taken from the officaial website -->
+
+        <section style="margin-bottom: 30px;"></section>
+
+        <section id="advising">
+            <center><h2>MS and Graduate Certificate Advising</h2></center>
+            <section style="margin-bottom: 30px;"></section>
+            <p>
+                The Department of Computer Science has four Graduate Program Specialists available to provide advising for students in our MS and Graduate Certificate programs:
+            </p>
+            <ul>
+                <li>Imekom Inyang</li>
+                <li>Lauren Nyilas</li>
+                <li>Beth Posocco</li>
+                <li>Alyssa Tsukamoto</li>
+            </ul>
+            <p><strong>CS Office Location:</strong> Engineering Building Suite #4300 on the fourth floor</p>
+
+            <p>If you have simple questions or need quick answers, contact us here:</p>
+            <ul>
+                <li><strong>Email:</strong> csgrad@gmu.edu</li>
+                <li><strong>Phone:</strong> (703) 993-1530</li>
+            </ul>
+
+            <p><strong>NOTE:</strong> The following advising options are for MS students only. PhD CS students should email <a href="mailto:csphd@gmu.edu">csphd@gmu.edu</a> for advising.</p>
+
+            <p><strong>Virtual and In-Person Advising</strong> is available here: <a href="https://gmu.edu">Book an Appointment</a></p>
+            <p>Appointments are recommended and preferred! Otherwise, you can choose to take advantage of the walk-in advising hours noted below.</p>
+            <p>Be sure to select the correct format for your appointment (in-person or virtual). In-person advising is held in the CS Office.</p>
+
+            <p><strong>Walk-In Advising</strong> is available Tuesday/Wednesday/Friday from 1PM to 4PM in the CS Office.</p>
+
+            <p>If you do not schedule an appointment, you are welcome to visit the office during the walk-in advising hours above. Please note that appointments take priority! You may need to wait until an advisor is free to meet with you.</p>
+
+            <p>We do not provide advising for the following programs. Please use the correct points of contact listed below:</p>
+            <ul>
+                <li><strong>MS INFS (Fall 2022 or later):</strong> <a href="mailto:msinfs@gmu.edu">msinfs@gmu.edu</a></li>
+                <li><strong>MS CS Online Program</strong></li>
+                <ul>
+                    <li><strong>Prospective Students:</strong> <a href="mailto:online2@gmu.edu">online2@gmu.edu</a> or <a href="https://gmu.edu">click here</a></li>
+                    <li><strong>Current Students:</strong> Contact your assigned MS CS online advisor</li>
+                </ul>
+                <li><strong>Mason INTO Program:</strong> <a href="mailto:intomason@gmu.edu">intomason@gmu.edu</a></li>
+            </ul>
+        </section>
+
+        <section style="margin-bottom: 30px;"></section>
+
+        <section id="survey">
+            <center> <h2>Survey for CS Department</h2></center>
+            <p>Please click this link to head to the George Mason's Computer Science Department's Survey</p>
+            <a href="Survey.html">Click Here!</a>
+        </section>
+    </div>
+
+
+
+
+    <!-- Footer Section -->
+    <footer class="gm-footer text-center mt-5">
+        <p>&copy; 2024 George Mason University | Computer Science Department</p>
+        <p>Unofficial Page by Harsha Udutha</p>
+    </footer>
+    
+    <!--javascript to handle expand and collapse functionality of the tables for each course -->
+    <script>
+        document.getElementById("toggleTable").addEventListener("click", function() {
+            const collapsibleSections = document.querySelectorAll('.collapse');
+            const toggleButton = document.getElementById("toggleTable");
+            const allExpanded = [...collapsibleSections].every(section => section.classList.contains("show"));
+    
+            collapsibleSections.forEach(section => {
+                if (allExpanded) {
+                    section.classList.remove("show");
+                    toggleButton.textContent = "Expand All";
+                } else {
+                    section.classList.add("show");
+                    toggleButton.textContent = "Collapse All";
+                }
+            });
+        });
+    </script>
+
+    <!-- javascript that handles the simple darkmode functionality -->
+    <script src="darkmode.js"></script>
+    <!-- Script Handling scrolling -->
+    <script>
+        document.querySelectorAll('a.nav-link').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+
+</body>
+
+</html>
